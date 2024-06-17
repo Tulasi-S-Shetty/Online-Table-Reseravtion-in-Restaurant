@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3B22F9F0-C6D0-4C55-90A8-4F8E77010A99}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Template</RootNamespace>
+    <AssemblyName>Template</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Templates\about.html" />
+    <Content Include="Templates\blog-details.html" />
+    <Content Include="Templates\blog.html" />
+    <Content Include="Templates\contact.html" />
+    <Content Include="Templates\css\animate.css" />
+    <Content Include="Templates\css\baguetteBox.min.css" />
+    <Content Include="Templates\css\bootstrap.min.css" />
+    <Content Include="Templates\css\classic.css" />
+    <Content Include="Templates\css\classic.date.css" />
+    <Content Include="Templates\css\classic.time.css" />
+    <Content Include="Templates\css\custom.css" />
+    <Content Include="Templates\css\font-awesome.min.css" />
+    <Content Include="Templates\css\responsive.css" />
+    <Content Include="Templates\css\style.css" />
+    <Content Include="Templates\css\superslides.css" />
+    <Content Include="Templates\Feedback1.aspx" />
+    <Content Include="Templates\fonts\fontawesome-webfont.svg" />
+    <Content Include="Templates\ForgotPassword.aspx" />
+    <Content Include="Templates\gallery.html" />
+    <Content Include="Templates\images\1655366108673.jpg" />
+    <Content Include="Templates\images\about-img.jpg" />
+    <Content Include="Templates\images\About.jpg" />
+    <Content Include="Templates\images\all-bg.jpg" />
+    <Content Include="Templates\images\avt-img.jpg" />
+    <Content Include="Templates\images\blog-img-01.jpg" />
+    <Content Include="Templates\images\blog-img-02.jpg" />
+    <Content Include="Templates\images\blog-img-03.jpg" />
+    <Content Include="Templates\images\blog-img-04.jpg" />
+    <Content Include="Templates\images\blog-img-05.jpg" />
+    <Content Include="Templates\images\blog-img-06.jpg" />
+    <Content Include="Templates\images\blog-img-07.jpg" />
+    <Content Include="Templates\images\blog-img-08.jpg" />
+    <Content Include="Templates\images\blog-img-09.jpg" />
+    <Content Include="Templates\images\F4.jpg" />
+    <Content Include="Templates\images\F5.jpg" />
+    <Content Include="Templates\images\F6.jpg" />
+    <Content Include="Templates\images\Feedback3.jpg" />
+    <Content Include="Templates\images\footer-bg.jpg" />
+    <Content Include="Templates\images\G1.jpg" />
+    <Content Include="Templates\images\G2.jpg" />
+    <Content Include="Templates\images\G3.jpg" />
+    <Content Include="Templates\images\G4.jpg" />
+    <Content Include="Templates\images\G5.jpg" />
+    <Content Include="Templates\images\gallery-img-01.jpg" />
+    <Content Include="Templates\images\gallery-img-02.jpg" />
+    <Content Include="Templates\images\gallery-img-03.jpg" />
+    <Content Include="Templates\images\gallery-img-04.jpg" />
+    <Content Include="Templates\images\gallery-img-05.jpg" />
+    <Content Include="Templates\images\gallery-img-06.jpg" />
+    <Content Include="Templates\images\Icon.jpg" />
+    <Content Include="Templates\images\Icon1.jpg" />
+    <Content Include="Templates\images\img-01.jpg" />
+    <Content Include="Templates\images\img-02.jpg" />
+    <Content Include="Templates\images\img-03.jpg" />
+    <Content Include="Templates\images\img-04.jpg" />
+    <Content Include="Templates\images\img-05.jpg" />
+    <Content Include="Templates\images\img-06.jpg" />
+    <Content Include="Templates\images\img-07.jpg" />
+    <Content Include="Templates\images\img-08.jpg" />
+    <Content Include="Templates\images\img-09.jpg" />
+    <Content Include="Templates\images\index.jpg" />
+    <Content Include="Templates\images\index1.jpg" />
+    <Content Include="Templates\images\inner-blog-img.jpg" />
+    <Content Include="Templates\images\L1.png" />
+    <Content Include="Templates\images\logo.png" />
+    <Content Include="Templates\images\Outdoor1.jpg" />
+    <Content Include="Templates\images\Outdoor2.jpg" />
+    <Content Include="Templates\images\Outdoor3.jpg" />
+    <Content Include="Templates\images\Party1.jpg" />
+    <Content Include="Templates\images\Party2.jpg" />
+    <Content Include="Templates\images\Party3.jpg" />
+    <Content Include="Templates\images\photo_bg.jpg" />
+    <Content Include="Templates\images\photo_bg1.jpg" />
+    <Content Include="Templates\images\pic 3.jpg" />
+    <Content Include="Templates\images\post-img-01.jpg" />
+    <Content Include="Templates\images\post-img-02.jpg" />
+    <Content Include="Templates\images\post-img-03.jpg" />
+    <Content Include="Templates\images\profile-1.jpg" />
+    <Content Include="Templates\images\profile-3.jpg" />
+    <Content Include="Templates\images\profile-7.jpg" />
+    <Content Include="Templates\images\qt-bg.jpg" />
+    <Content Include="Templates\images\R1.jpg" />
+    <Content Include="Templates\images\slider-01.jpg" />
+    <Content Include="Templates\images\slider-02.jpg" />
+    <Content Include="Templates\images\slider-03.jpg" />
+    <Content Include="Templates\images\stuff-img-01.jpg" />
+    <Content Include="Templates\images\stuff-img-02.jpg" />
+    <Content Include="Templates\images\stuff-img-03.jpg" />
+    <Content Include="Templates\images\Tables.jpg" />
+    <Content Include="Templates\images\Unpost.jpg" />
+    <Content Include="Templates\index.html" />
+    <Content Include="Templates\js\baguetteBox.min.js" />
+    <Content Include="Templates\js\bootstrap.min.js" />
+    <Content Include="Templates\js\contact-form-script.js" />
+    <Content Include="Templates\js\custom.js" />
+    <Content Include="Templates\js\form-validator.min.js" />
+    <Content Include="Templates\js\images-loded.min.js" />
+    <Content Include="Templates\js\isotope.min.js" />
+    <Content Include="Templates\js\jquery-3.2.1.min.js" />
+    <Content Include="Templates\js\jquery.mapify.js" />
+    <Content Include="Templates\js\jquery.superslides.min.js" />
+    <Content Include="Templates\js\legacy.js" />
+    <Content Include="Templates\js\picker.date.js" />
+    <Content Include="Templates\js\picker.js" />
+    <Content Include="Templates\js\picker.time.js" />
+    <Content Include="Templates\js\popper.min.js" />
+    <Content Include="Templates\Login.aspx" />
+    <Content Include="Templates\menu.html" />
+    <Content Include="Templates\reservation.html" />
+    <Content Include="Templates\SignUp.aspx" />
+    <Content Include="Templates\AddTable.aspx" />
+    <Content Include="Templates\CancelBooking.aspx" />
+    <Content Include="Templates\CustomerFeedback.aspx" />
+    <Content Include="Templates\stuff.html" />
+    <Content Include="Templates\WebForm2.aspx" />
+    <Content Include="Templates\ViewBooking.aspx" />
+    <Content Include="Templates\ViewTables.aspx" />
+    <Content Include="Templates\Delete.aspx" />
+    <Content Include="Templates\Feedback.aspx" />
+    <Content Include="Templates\DltFeedback.aspx" />
+    <Content Include="Templates\TableReserve.aspx" />
+    <Content Include="Templates\TableReserve1.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="WebForm1.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.Master.cs">
+      <DependentUpon>Menu.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menu.Master.designer.cs">
+      <DependentUpon>Menu.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\Feedback1.aspx.cs">
+      <DependentUpon>Feedback1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\Feedback1.aspx.designer.cs">
+      <DependentUpon>Feedback1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\ForgotPassword.aspx.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\ForgotPassword.aspx.designer.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\SignUp.aspx.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\SignUp.aspx.designer.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\AddTable.aspx.cs">
+      <DependentUpon>AddTable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\AddTable.aspx.designer.cs">
+      <DependentUpon>AddTable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\Customer.Master.cs">
+      <DependentUpon>Customer.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\Customer.Master.designer.cs">
+      <DependentUpon>Customer.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\CancelBooking.aspx.cs">
+      <DependentUpon>CancelBooking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\CancelBooking.aspx.designer.cs">
+      <DependentUpon>CancelBooking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\CustomerFeedback.aspx.cs">
+      <DependentUpon>CustomerFeedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\CustomerFeedback.aspx.designer.cs">
+      <DependentUpon>CustomerFeedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\ViewBooking.aspx.cs">
+      <DependentUpon>ViewBooking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\ViewBooking.aspx.designer.cs">
+      <DependentUpon>ViewBooking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\ViewTables.aspx.cs">
+      <DependentUpon>ViewTables.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\ViewTables.aspx.designer.cs">
+      <DependentUpon>ViewTables.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\Delete.aspx.cs">
+      <DependentUpon>Delete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\Delete.aspx.designer.cs">
+      <DependentUpon>Delete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\Feedback.aspx.cs">
+      <DependentUpon>Feedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\Feedback.aspx.designer.cs">
+      <DependentUpon>Feedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\DltFeedback.aspx.cs">
+      <DependentUpon>DltFeedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\DltFeedback.aspx.designer.cs">
+      <DependentUpon>DltFeedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\TableReserve.aspx.cs">
+      <DependentUpon>TableReserve.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\TableReserve.aspx.designer.cs">
+      <DependentUpon>TableReserve.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\TableReserve1.aspx.cs">
+      <DependentUpon>TableReserve1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\TableReserve1.aspx.designer.cs">
+      <DependentUpon>TableReserve1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Menu.Master" />
+    <Content Include="Templates\Admin.Master" />
+    <Content Include="Templates\Customer.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Templates\fonts\fontawesome-webfont.eot" />
+    <None Include="Templates\fonts\fontawesome-webfont.ttf" />
+    <None Include="Templates\fonts\fontawesome-webfont.woff" />
+    <None Include="Templates\fonts\fontawesome-webfont.woff2" />
+    <None Include="Templates\fonts\FontAwesome.otf" />
+    <None Include="Templates\php\form-process.php" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54331</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

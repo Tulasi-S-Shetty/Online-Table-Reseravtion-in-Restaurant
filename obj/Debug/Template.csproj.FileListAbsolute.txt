@@ -1,0 +1,5 @@
+c:\users\suman\documents\visual studio 2010\Projects\Template\Template\bin\Template.dll
+c:\users\suman\documents\visual studio 2010\Projects\Template\Template\bin\Template.pdb
+c:\users\suman\documents\visual studio 2010\Projects\Template\Template\obj\Debug\Template.dll
+c:\users\suman\documents\visual studio 2010\Projects\Template\Template\obj\Debug\Template.pdb
+C:\Users\suman\documents\visual studio 2010\Projects\Template\Template\obj\Debug\Template.csprojResolveAssemblyReference.cache

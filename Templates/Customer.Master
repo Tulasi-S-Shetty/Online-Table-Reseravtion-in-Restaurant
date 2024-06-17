@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Customer.Master.cs" Inherits="Template.Templates.TableReserve" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+        .Home
+    {
+    	background:White;
+    	color:Black;
+    	font-size:20px;
+    	font-family:Calibri;
+    	padding:6px 22px;
+    	border-bottom:3px solid #925b08;
+    	border:none;
+    	border-radius:10px;
+    }
+        
+        
+        
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <div style="background-color: #000000; color: #FFFF99; text-transform: capitalize; font-variant: normal; font-style: oblique; font-weight: 500; height: 135px;">
+        &nbsp;&nbsp;&nbsp;<asp:ImageButton 
+            ID="ImageButton1" runat="server" Height="89px" 
+            ImageUrl="~/Templates/images/Icon1.jpg" Width="180px" />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Italic="True" 
+            Font-Size="Large" ForeColor="#FFFFCC" Height="57px" style="margin-left: 0px" 
+            Text="Welcome to Online Table Reservation System"></asp:Label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        <asp:Button 
+            ID="btnReserve" runat="server" Text="Reserve Table" Width="145px" 
+            style="margin-bottom:15px; margin-top:40px; margin-left:0px;" 
+            CssClass="Home" onclick="btnReserve_Click" />
+        &nbsp;
+        <asp:Button ID="btnCancel" runat="server" Height="33px" Text="Cancel Booking" 
+            Width="155px" CssClass="Home" onclick="btnCancel_Click"  />
+        &nbsp;&nbsp;&nbsp;
+        <asp:Button ID="btnFeedback" runat="server" Text="Feedback" Width="96px" 
+            CssClass="Home" onclick="btnFeedback_Click1" />
+&nbsp;&nbsp;&nbsp; 
+        <asp:Button ID="btnLogout" runat="server" Text="Logout" Width="96px" 
+            CssClass="Home" onclick="btnLogout_Click"   />
+        &nbsp;&nbsp;
+        &nbsp;</div>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
